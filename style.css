@@ -1,0 +1,43 @@
+/*
+Design By Leonid Velinov
+https: //github.com/velinovleonid
+https: //linktr.ee/velinovleonid
+*/
+.calculator {
+    width: 250px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #475c6c;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+#display {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+}
